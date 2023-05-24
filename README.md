@@ -2,8 +2,8 @@
 
 Git commands
 
-git add - Files added to the staging stage
-git commit -m "message" - The files in the Staging stage will be committed
+### git add - Files added to the staging stage
+### git commit -m "message" - The files in the Staging stage will be committed
 git push - The files which are committed will be added to the repository within the branch you are
 
 git branch - list outs the branches that are created in the repository
