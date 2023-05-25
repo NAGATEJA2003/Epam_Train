@@ -1,3 +1,145 @@
+Scneario1: You are responsible for setting up a small office network with multiple computers. what devices would you use and how would you connect them to ensure proper communication
+
+Scenario2: You are working for an e-commerce company that experiences high website during sales event. How would you you ensure that the website remains accessible and responsive to users under such heavy load?
+
+Scenario3: A company has multiple branch offices located in different cities. They want to establish secure and reliable connections and data sharing. What networking solutions or technologies would you recommend?
+
+Scenario4: A sofrware development company wants to adopt a cloud-based infrastructure to enhance collaboration and scalability. How would you design the network architecture to ensure seamless integration between on-premises resources and the cloud environment
+_____________________________________________________________________________________________________________
+
+Q) What is Networking?
+A. 1. Networiking refers to the interconnection of various devices to communicate and exchange information and resources such as data,software,hardware etc.,
+   2. Different computer devices such as servers, desktop,laptops,smartphones, tablets connected through multiple paths for sending or recieving the data are known as Hosts.
+   3. Any networking system's foundation is formed by specialised devices or mediums known as Network Devices 
+   4. Example: routers, switches, modems, access points, hubs, and bridges
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+Q) How are network types classified  
+A. 1m -          personal area network                    square meter
+   10m-1km       Local Area network                       room,building and campus 
+   10km          Metropolitan Area Network                city
+   100km-1000km  Wide area network                        Country,Continent
+   10000km       The Internet (Global Area Network)       Planet
+
+   Personal Area Network are the communications which are held within the range of 1m and over the range of a person EX: Bluetooth connection
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+Q) Explain LAN?
+A. LAN (Local Area Network) is a type of network which helps entities communicate within a range 10m-1km such as within a room, building and campus
+   1. LAN's are widely used to connect computers/laptops and consumer electronics which enables them to share resources. (Printers, fax machines etc.)
+   2. When LAN's are consumed by companies or organization, they are called "Enterprise Networks".
+   3. There are two types of LAN Networks i.e wireless LAN. (no wires are involved in using WiFi) and wired LAN.
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+Q) Explain something about VPN (virtual Private network)?
+A. 1. VPN is private WAN built on the internet.
+   2. It allows the creation of secured tunnel (Protected network) between different networks using the internet(public network)
+   3. By using the VPN, a client can connect to the organization's network remotely
+   Few types of VPN are:
+   a) Access VPN: access-private mobile users and telecommuter-lowcost-wide range of connectivity
+   b) site-to-site VPN: or router-to-router VPN is commonly used to connect the network of one office to another in different locations
+   c) Intranet VPN: it is useful for connecting remote offices in different geographical locations using shared infrastructure
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+Q) What are nodes and links?
+A. Node: AAny communication devicce in a network is called a Node.
+   Node is the point of intersection in a network. It can send/receive data and information with in a network. Eg: computer , laptop, printers, servers etc.
+   Link: A link is refers to the connectivity between two nodes in the network. It includes the type of connectivity(wired/wireless) between the nodes and protocols used for the one node to    able to communicate with the other.
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+Q) What is an IPV4 address? What are the different classes of IPV4?
+A. The IPv4 address is a 32-bit number that uniquely identifies a network on a machine.
+   An IPv4 address isd typically written in decimal digits, formatted as four 8-bit fields that are seperated by periods.
+   IPv4 addressing system is divided into five classes of IP address. All the five classes are identified by the first octect of IP address.
+   classA: Address that starts with 1-126; 8-bit network prefix)
+   classB: address that starts wityh 128-191; 16 bit network prefix)
+   classC: Address that starts with 192-223; 24-bit network prefix
+   classD: Addres that starts with 224-239;
+   classE: Address that starts with 240-255)
+
+   Exampes: classA: used for large networks
+            classB: used for medium size networks 
+            classC: used for local Area networks
+            classD: used for Multicasting
+__________________________________________________________________________________________________________________________________________________________________________________________
+
+Q) What is a Switch?
+A. 1. A network switch is a hardware device that connects multiple devices together
+   2. Switches use MAC addresses to send data to the correct device.
+   3. switch can improve performance and safety
+   4. They can reduce collisions and increasing bandwidth
+   Example: Lets say you have a network with 5 computers, A-E. If you connect these computers directly to each other, ay data that is sent from another computer to other will be broadcasted    to all computers. This can cause collisions and slow down the network. In this case switch is the best solution
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+Q) What is a host?
+A. 1. A host in networking is a computer or other device that is connected to a network and can communicate wither other hosts on the network
+   2. Hosts can be either server or client
+   3. Servers provide resoirces to other hosts, such as files, printers, and application. Clients use the resources that are provided by the servers
+   Example: A web server is a host that provides wep pages web pages to clients. When a client request a web page from a web server, the web server sends the web page to the client.
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+Q) What is Router?
+A. 1. A router is a networking device that connect on or more networks together 
+   2. Routers use IP addresses to send data to the correct network. Routers are used to connect different types of networks
+      -LAN
+      -MAN
+      -WAN
+   3. when a router recieves a packet of data, it looks up the destination IP addresses in the routing table, the router sends the packet to the next hop in the path to the destination          network
+   4. if the Destination IP addresses is not in the routing table, router sends the packet to the default gateway. 
+
+   Example: you are at a home and you want to go to a website. your computer sends request to you router. your router looks up the destination IP addresses in its routing table.
+            The routing table shows that the destination IP addresses is on the internet.Your router sends the request to your internet service provider (ISP). Your ISP router sends the             data back to your router. your router sends the data to your computer.Your Computer displays the websites 
+_____________________________________________________________________________________________________________________________________________________________________________________________
+In computer networking, a protocol refers to a set of rules and conventions that govern the communication and interaction between devices and systems in a network. Protocols define the format, timing, sequencing, and error control of messages exchanged between network entities.
+
+Protocols provide a common language and framework for devices to communicate and understand each other's actions. They ensure that data can be transmitted reliably and efficiently across different networks and devices, regardless of their underlying technologies or manufacturers.
+
+There are numerous protocols used in computer networking, each serving a specific purpose. Some commonly used protocols include:
+
+Transmission Control Protocol (TCP): TCP is a connection-oriented protocol that provides reliable, ordered, and error-checked delivery of data packets over IP networks. It breaks data into packets, numbers them for tracking, and reassembles them at the destination.
+
+Internet Protocol (IP): IP is a network layer protocol responsible for addressing and routing packets across interconnected networks. It defines how data is formatted, addressed, transmitted, and received.
+
+Hypertext Transfer Protocol (HTTP): HTTP is an application-layer protocol used for transmitting hypertext documents (such as web pages) on the World Wide Web. It establishes a client-server communication model, where web browsers request resources from web servers.
+
+File Transfer Protocol (FTP): FTP is a protocol that enables the transfer of files between a client and a server over a network. It provides functions for file upload, download, and directory navigation.
+
+Simple Mail Transfer Protocol (SMTP): SMTP is an application-layer protocol used for sending and receiving email. It defines the format and rules for email transmission, including message structure, addressing, and delivery.
+
+These are just a few examples of the many protocols that exist within the vast realm of computer networking. Each protocol serves a specific purpose and operates at a particular layer of the network stack, contributing to the overall functionality and interoperability of networked systems.
+Physical Layer:
+
+Ethernet: A protocol that defines the physical and electrical characteristics of network cables, connectors, and the transmission of raw bitstreams over the physical medium.
+Data Link Layer:
+
+Point-to-Point Protocol (PPP): A protocol commonly used to establish a direct connection between two network nodes, often used for dial-up connections or VPNs.
+Media Access Control (MAC): A protocol that defines how devices on a shared network access and control the physical medium, such as Ethernet.
+Network Layer:
+
+Internet Protocol (IP): The foundational protocol for the internet, responsible for addressing, routing, and fragmenting packets across networks.
+Internet Control Message Protocol (ICMP): A protocol used for sending error messages, network diagnostics, and management functions, often associated with tools like ping and traceroute.
+Transport Layer:
+
+Transmission Control Protocol (TCP): A reliable, connection-oriented protocol that provides error-checking, flow control, and sequencing of data packets.
+User Datagram Protocol (UDP): A connectionless protocol that offers a low-overhead alternative to TCP, suitable for applications where real-time data transmission is critical.
+Session Layer:
+
+Real-Time Transport Protocol (RTP): A protocol used for transmitting real-time audio and video data over IP networks, commonly used in applications like video conferencing and streaming media.
+Presentation Layer:
+
+Secure Sockets Layer (SSL) / Transport Layer Security (TLS): Protocols that provide secure encryption and authentication of data transmitted over a network, commonly used for secure web browsing (HTTPS) and email (SMTPS, POP3S, IMAPS).
+Application Layer:
+
+Hypertext Transfer Protocol (HTTP): A protocol for transmitting web pages and related content over the internet.
+Simple Mail Transfer Protocol (SMTP): A protocol for sending email messages between mail servers.
+File Transfer Protocol (FTP): A protocol for transferring files between a client and a server.
+Domain Name System (DNS): A protocol for translating domain names into IP addresses.
+
+
+______________________________________________________________________________________________________
+
+
 What is DNS in networking?
 
 DNS stands for Domain Name System
